@@ -18,7 +18,6 @@ export default function WelcomeComponent(){
             {/* <h3> Welcome Back {requestParams.username}... </h3> */}
             <h3> Welcome Back chodu {authContext.currentUser}... </h3>
             To manage your Todos <Link to="/todos"> click here</Link>
-
         </div>
     )
 }
